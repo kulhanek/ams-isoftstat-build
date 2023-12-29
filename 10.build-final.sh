@@ -1,7 +1,7 @@
 #!/bin/bash
 
-PREFIX=/opt/ams-isoftstat/8.0
-DESDIR=/local/packages/22.04/src/packages/provisioning/ncbr-ams-isoftstat
+PREFIX=/opt/ams-isoftstat/9.0
+DESDIR=/local/packages/22.04/src/packages/provisioning/ncbr-ams-isoftstat-9.0
 
 # ------------------------------------------------------------------------------
 
@@ -22,7 +22,7 @@ fi
 # ------------------------------------------------------------------------------
 # update revision number
 _PWD=$PWD
-cd src/projects/ams/8.0
+cd src/projects/ams/9.0
 ./UpdateGitVersion activate
 cd $_PWD
 
